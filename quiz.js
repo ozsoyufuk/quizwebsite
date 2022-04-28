@@ -194,7 +194,7 @@ var myVar;
 
 //load the website
 function myLoader() {
-  myVar = setTimeout(showPage, 2000);
+  myVar = setTimeout(showPage, 3500);
 }
 
 function showPage() {
