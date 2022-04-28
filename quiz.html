@@ -1,0 +1,70 @@
+<!--References
+//https://www.w3schools.com/
+//https://github.com/
+//https://www.coursera.org/learn/creating-a-quiz-game-using-vanilla-javascript/home/welcome
+//https://www.coursera.org/learn/creating-a-multi-page-app-using-html-and-css/home/welcome
+//https://www.coursera.org/learn/website-coding/home/welcome
+//https://www.htmlandcssbook.com/
+//https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/home/welcome
+//https://www.coursera.org/learn/build-portfolio-website-html-css/home/welcome
+//https://www.udemy.com/course/build-a-quiz-app-with-html-css-and-javascript/ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+			<a href="index.html" class="btn">Go Home</a>
+
+	<div class="questionContainer">
+		<div class="questionsAll">
+			<div class="information">
+				<div class="text">
+					<p id='advance'>Question</p>
+					<div id="bar">
+						<div id="barFull"></div>
+					</div>
+				</div>
+				<div id="timer">
+
+						<h2 class="texttimer" id="timerCount">15 s</h1>
+				</div>
+				<div class="textScore">
+						<p >Score:</p>
+						<h2 id='scoreNo'>0</h2>
+				</div>
+				</div>
+				<div class="questions" >
+					<div><h3 id='questionContent'>What is the Question?</h3></div>
+					<div class="choices">
+						<div >
+							<p class='choiceContent' data-number="1">num1</p>
+						</div>
+						<div>
+							<p class='choiceContent' data-number="2" >num2</p>
+						</div>
+						<div>
+							<p class='choiceContent' data-number="3">num3</p>
+						</div>
+						<div>
+							<p class='choiceContent' data-number="4">num4</p>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
