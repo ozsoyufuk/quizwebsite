@@ -33,7 +33,7 @@ body {
 }
 
 a:link, a:visited{
-	background-color: white;
+		background-color: white;
 	color: darkgrey;
 	border: 3px solid blue;
 	padding: 8px 16px;
@@ -43,6 +43,8 @@ a:link, a:visited{
 	display: inline-block;
 	margin-bottom: 8px;
 	font-size: 30px;
+	margin-left: 50px;
+	margin-top: 100px;
 }
 a:hover, a:active{
 	background-color: turquoise;
